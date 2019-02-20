@@ -1,0 +1,26 @@
+body{
+    margin: unset;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 15px 0 15px;
+}
+
+.btn-cart{
+    margin: 0 10px 0 auto;
+    display: block;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.product-item{
+    margin: 10px 15px 0;
+    width: 85px;
+}
